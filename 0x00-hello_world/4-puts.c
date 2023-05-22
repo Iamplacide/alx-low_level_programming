@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*
+/**
  * main - A program that printout a text using the puts function
  *
  * Return: 0 sucessful
