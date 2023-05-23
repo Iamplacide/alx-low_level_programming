@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 #include <main.h>
 /**
  * main - a program that prints a text to the console
