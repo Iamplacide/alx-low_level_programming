@@ -17,5 +17,9 @@ int _isupper(int c)
 	{
 		ret = 0;
 	}
+	else
+	{
+		ret = 0;
+	}
 	return (ret);
 }
