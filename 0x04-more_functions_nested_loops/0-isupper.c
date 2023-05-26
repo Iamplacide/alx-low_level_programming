@@ -2,7 +2,7 @@
 /**
  * _isupper - a program that xhecks if the nput char is a capital
  * or lower case letter and return 1 or 0 respectively
- * @c: the integer to check 
+ * @c: the integer to check
  * Return: 1 when uppercase 0 when lowercase
  */
 int _isupper(int c)
