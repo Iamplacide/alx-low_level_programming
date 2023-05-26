@@ -1,19 +1,18 @@
 #include "main.h"
 /**
- * _isupper - a program that xhecks if the nput char is a capital
- * or lower case letter and return 1 or 0 respectively
+ * _isdigit - a program that checks if the input is a digit
  * @c: the integer to check
- * Return: 1 when uppercase 0 when lowercase
+ * Return: 1 if c is a digit 0 otherwise
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
 	int ret;
 
-	if (c >= 65 && c <= 90)
+	if (c >= 48 && c <= 57)
 	{
 		ret = 1;
 	}
-	else if (c >= 97 && c <= 122)
+	else
 	{
 		ret = 0;
 	}
