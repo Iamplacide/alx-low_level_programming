@@ -19,6 +19,10 @@ void print_diagonal(int n)
 		{
 			_putchar(b);
 		}
+		else
+		{
+			break;
+		}
 		_putchar('\n');
 	}
 }
