@@ -10,12 +10,12 @@ int main(void)
 
 	a = 0;
 	b = 1;
-	for (c = 1; c <= 98; c++)
+	for (c = 1; c <= 94; c++)
 	{
 		sum = a + b;
 		a = b;
 		b = sum;
-		if (c != 98)
+		if (c != 94)
 		{
 		printf("%lu, ", sum);
 		}
