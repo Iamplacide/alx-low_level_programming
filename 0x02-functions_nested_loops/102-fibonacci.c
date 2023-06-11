@@ -15,7 +15,14 @@ int main(void)
 		sum = a + b;
 		a = b;
 		b = sum;
+		if (c != 50)
+		{
 		printf("%ld, ", sum);
+		}
+		else
+		{
+			printf("%ld", sum);
+		}
 	}
 	putchar('\n');
 	return (0);
