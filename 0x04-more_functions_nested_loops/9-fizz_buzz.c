@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - a program that prints to the console numbers from 0 to 100
- * if multiple of 3 print Fizz and Buzz for 5, Fizzbuzz for the
- * multiple of both five and three
+ * main - a program that prints number to the stdout
+ * if multiple of 3 print Fizz and Buzz for 5,
+ * multiple of both five and three put fizzbuzz
  * Return: 0 always
  */
 int main(void)
