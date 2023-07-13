@@ -1,8 +1,8 @@
+#include "main.h"
 #include<stdio.h>
 /**
- * main - A program that printout a text using the puts function
- *
- * Return: 0 sucessful
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
