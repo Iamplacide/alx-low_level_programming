@@ -1,11 +1,14 @@
-#include<stdio.h>
+#include "main.h"
 /**
- * main - A program that printout a text using the puts function
- *
- * Return: 0 sucessful
+ * _puts - a program that print a string at the console
+ * @str: the string to be output
  */
-int main(void)
+void _puts(char *str)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	while (*str != '\0')
+	{
+		_putchar(*str);
+		str++;
+	}
+	_putchar('\n');
 }
