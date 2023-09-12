@@ -1,5 +1,8 @@
 #include "main.h"
 
+#ifndef DOG_H
+#define DOG_H
+
 /**
  * struct dog - a struc recording everything about a dog
  * @name: dog's name
@@ -13,3 +16,5 @@ struct dog
 	double age;
 	char *owner;
 };
+
+#endif
