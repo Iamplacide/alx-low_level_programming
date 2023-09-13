@@ -19,10 +19,10 @@ int _strlen(char *s)
 }
 
 /**
- * *_strcpy - copies the string pointed to by src including 
+ * *_strcpy - copies the string pointed to by src including
  * '\0' to dest
  * @dest: pointer destination
- * @src: pointer source 
+ * @src: pointer source
  * Return: the pointer to dest
  */
 char *_strcpy(char *dest, char *src)
